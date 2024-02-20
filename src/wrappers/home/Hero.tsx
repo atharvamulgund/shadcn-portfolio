@@ -25,7 +25,7 @@ const Hero = () => {
             className="rounded-full object-cover"
           />
         </div>
-        <p className="info text-stone-500 w-[80%] sm:w-[60%] text-center sm:text-2xl">
+        <p className="info text-stone-200 w-[80%] sm:w-[60%] text-center sm:text-2xl">
           Greetings! 👋 I'm Atharva Mulgund, a Front-End Sorcerer 🧙‍♂️ weaving seamless digital experiences across the techscape. 
           Crafting code spells to optimize journeys in the multi-device realm. 🌐✨ Let's elevate your digital presence together!</p>
           

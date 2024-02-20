@@ -72,7 +72,7 @@ const Blog = () => {
             posts?.map(({ node }: { node: blog }, key) => (
               <>
                 <div className="max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={node?.id}>
-                  <a href={node?.url}>
+                  <a href={node?.url} rel="canonical">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                       {node?.title}
                     </h5>
@@ -85,7 +85,7 @@ const Blog = () => {
                       <Badge key={tag.id}>{tag.name}</Badge>
                     ))}
                   </div>
-                  <a href={node?.url}>
+                  <a href={node?.url} rel="canonical">
                     <Button
                       className={`${
                         key === 0
@@ -97,7 +97,7 @@ const Blog = () => {
                           : ""
                       }`}
                     >
-                      Read more
+                      Read more about the blog
                       <svg
                         className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                         aria-hidden="true"

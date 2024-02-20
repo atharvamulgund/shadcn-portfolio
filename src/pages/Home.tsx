@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 const Home = () => {
   return (
    <>
-   <section className='max-w-screen-lg m-auto flex justify-center flex-col items-center gap-6 relative overflow-y-none'>
+   <section className='max-w-screen-lg  m-auto flex justify-center flex-col items-center gap-6 relative overflow-y-none'>
       <Navbar/>
       <Hero />
       <AboutContainer/>

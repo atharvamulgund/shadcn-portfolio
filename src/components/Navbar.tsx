@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <NavigationMenu className="">
-        <NavigationMenuList className="flex w-screen  justify-around mt-2 items-center gap-8 ">
+        <NavigationMenuList className="flex justify-center mt-2 items-center gap-8 ">
           <Link to="/">
             <NavigationMenuItem className="font-extrabold text-2xl">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
