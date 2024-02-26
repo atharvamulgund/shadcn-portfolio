@@ -25,12 +25,12 @@ const Hero = () => {
             className="rounded-full object-cover"
           />
         </div>
-        <p className="info text-stone-200 w-[80%] sm:w-[60%] text-center sm:text-2xl">
+        <p className="w-[80%] text-stone-600  sm:w-[60%] text-center sm:text-2xl">
           Greetings! 👋 I'm Atharva Mulgund, a Front-End Sorcerer 🧙‍♂️ weaving seamless digital experiences across the techscape. 
           Crafting code spells to optimize journeys in the multi-device realm. 🌐✨ Let's elevate your digital presence together!</p>
           
 
-        <a href="https://drive.google.com/drive/folders/1N1iUuFrFRovVtWOrl3Qft6gNgbywZxTe">
+        <a href="https://drive.google.com/file/d/1wpPklK4qXchNMauwMJULrqZCDnjYrfGY/view?usp=sharing">
         <Button variant="link" className="flex gap-2 text-white items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <ArrowDownToLine /> Resume
         </Button>

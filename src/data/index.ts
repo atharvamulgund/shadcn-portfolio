@@ -1,13 +1,13 @@
 import arFitnes from "@/assets/arfitness.png"
 import aniverse from "@/assets/aniverse.png"
 import twttierSystem from "@/assets/twitter system.png"
-// import twitterLight from "@/assets/twitter light.png"
-// import twitterDark from "@/assets/twitter dark.png"
+import twitterLight from "@/assets/twitter light.png"
+import twitterDark from "@/assets/twitter dark.png"
 import GithubIcon from "@/assets/github.png"
 import linkedInIcon from "@/assets/linkedin.png"
 import HashnodeIcon from "@/assets/hashnode.png"
 
-// const theme =localStorage.getItem('vite-ui-theme')
+const theme =localStorage.getItem('vite-ui-theme')
 export const experienceData = [
   {
     id:"exp1",
@@ -74,8 +74,8 @@ export const projectsData =[
 export const socialData = [
     {
       platform: "Instagram",
-      // icon: theme === 'dark' ? twitterLight : theme!=='system' ? twitterDark : twttierSystem,
-      icon: twttierSystem,
+      icon: theme === 'dark' ? twitterLight : theme=='light' ? twitterDark : twttierSystem,
+      // icon: twttierSystem,
       link: "https://twitter.com/Senpa1C0des",
     },
     {
