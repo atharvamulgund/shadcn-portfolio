@@ -64,9 +64,11 @@ const Blog = () => {
     <section className="flex items-center justify-center sm:flex-row flex-col">
       {/* <img src={aboutImage} alt='aboutimg' className='sm:w-[380px] w-s[280px]' /> */}
       <div className="max-w-2xl p-8 rounded-md">
-        <h1 className="text-3xl font-bold mb-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text ">
+        {posts?.length !==0 && (
+          <h1 className="text-3xl font-bold mb-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text ">
           Recent Tech Blogs
         </h1>
+        )}
         <div className="flex justify-between items-center gap-8 flex-wrap">
           {posts &&
             posts?.map(({ node }: { node: blog }, key) => (

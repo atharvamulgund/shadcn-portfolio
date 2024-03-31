@@ -1,95 +1,22 @@
 import { ModeToggle } from "@/components/mode.toggle";
-// import { Button } from "@/components/ui/button";
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuList,
-} from "@/components/ui/navigation-menu";
-// import {
-//   DropdownMenu,
-//   DropdownMenuContent,
-//   DropdownMenuItem,
-//   DropdownMenuSeparator,
-//   DropdownMenuTrigger,
-// } from "@/components/ui/dropdown-menu";
-// import { AlignJustify} from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
   return (
     <>
-      <NavigationMenu className="">
-        <NavigationMenuList className="flex justify-center mt-2 items-center gap-8 ">
-          <Link to="/">
-            <NavigationMenuItem className="font-extrabold text-2xl">
-            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-      Arthur
-    </h2>
-            </NavigationMenuItem>
-          </Link>
-          <NavigationMenuItem>
-              <ModeToggle />
-            </NavigationMenuItem>
-          {/* <NavigationMenuList className="hidden sm:flex justify-center items-center gap-8 sm:h-16">
-            <Link to="/about">
-              <NavigationMenuItem>About</NavigationMenuItem>
-            </Link>
-            <Link to="/blogs">
-              <NavigationMenuItem>Blogs</NavigationMenuItem>
-            </Link>
-            <Link to="/experience">
-              <NavigationMenuItem>Experience</NavigationMenuItem>
-            </Link>
-            <Link to="/contact-me">
-              <NavigationMenuItem>
-                <Button variant="secondary">Contact Me</Button>
-              </NavigationMenuItem>
-            </Link>
-            <NavigationMenuItem>
-              <ModeToggle />
-            </NavigationMenuItem>
-          </NavigationMenuList>
-         <NavigationMenuList className="flex sm:hidden justify-center items-center gap-8 sm:h-16">
-         <DropdownMenu >
-            <DropdownMenuTrigger  className="sm:hidden flex">
-                  <AlignJustify  />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>
-                <Link to="/about">
-                  <NavigationMenuItem>About</NavigationMenuItem>
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <Link to="/blogs">
-                  <NavigationMenuItem>Blogs</NavigationMenuItem>
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <Link to="/experience">
-                  <NavigationMenuItem>Experience</NavigationMenuItem>
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <Link to="/contact-me">
-                  <NavigationMenuItem>
-                    <Button variant="secondary">Contact Me</Button>
-                  </NavigationMenuItem>
-                </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-          <NavigationMenuItem>
-              <ModeToggle />
-            </NavigationMenuItem>
-         </NavigationMenuList> */}
-        
-        </NavigationMenuList>
-      </NavigationMenu>
+
+
+<nav className="w-full">
+    <div className="flex flex-wrap mx-4 justify-between sm:justify-around items-center sm:mx-auto max-w-screen-xl p-4">
+        <a href="https://flowbite.com" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Arthur</span>
+        </a>
+        <div className="flex items-center space-x-6 rtl:space-x-reverse">
+           <ModeToggle />
+        </div>
+    </div>
+</nav>
+
     </>
   );
 };

@@ -1,6 +1,7 @@
 import { socialData } from "@/data/index";
 
-function Footer() {
+
+function Footer() { 
   return (
     <div className="text-center border-t p-4 sm:p-8">
     <div className="flex flex-col sm:flex-row items-center justify-center m-auto gap-5">

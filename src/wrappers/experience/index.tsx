@@ -1,6 +1,6 @@
 import {experienceData} from "@/data/index";
 
-const index = () => {
+const Experience = () => {
   return (
     <>
       <section className="flex items-center justify-center sm:flex-row flex-col">
@@ -35,4 +35,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Experience;
