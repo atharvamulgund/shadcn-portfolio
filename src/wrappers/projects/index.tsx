@@ -37,22 +37,26 @@ const Projects = () => {
                     {item?.description}
                   </p>
                   <div className="flex justify-center item-center gap-4">
-                    <a href={item?.demo}>
-                      <Button
-                        variant="link"
-                        className="flex gap-2 items-center"
-                      >
-                        <Link /> Link
-                      </Button>
-                    </a>
-                    <a href={item?.github}>
-                      <Button
-                        variant="link"
-                        className="flex gap-2 items-center"
-                      >
-                        <Github /> Github
-                      </Button>
-                    </a>
+                    {item?.demo ? (
+                      <a href={item?.demo}>
+                        <Button
+                          variant="link"
+                          className="flex gap-2 items-center"
+                        >
+                          <Link /> Link
+                        </Button>
+                      </a>
+                    ) : null}
+                    {item?.github ? (
+                      <a href={item?.github}>
+                        <Button
+                          variant="link"
+                          className="flex gap-2 items-center"
+                        >
+                          <Github /> Github
+                        </Button>
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>

@@ -1,12 +1,11 @@
 import arFitnes from "@/assets/arfitness.png";
 import aniverse from "@/assets/aniverse.png";
-import goldGym from "@/assets/goldgym.png";
+// import goldGym from "@/assets/goldgym.png";
+import sneakhub from "@/assets/sneakhub.png";
 import yoom from "@/assets/yooom.png";
 import GithubIcon from "@/assets/github.png";
 import linkedInIcon from "@/assets/linkedin.png";
 import HashnodeIcon from "@/assets/hashnode.png";
-
-
 
 export const experienceData = [
   {
@@ -68,6 +67,15 @@ export const experienceData = [
 export const projectsData = [
   {
     id: "pro1",
+    img: sneakhub,
+    title: "SneakHub",
+    description:
+      "Explore Sneakhub, designed to enhance your sneaker shopping experience with high-quality visuals, detailed info, and seamless search functionality, all powered by Expo Router and Expo React Native.",
+    github: "https://github.com/atharvamulgund/sneakhub",
+    skills: ["React", "React Native", "Expo", "Expo Router"],
+  },
+  {
+    id: "pro2",
     img: yoom,
     title: "Yoom",
     description:
@@ -77,7 +85,7 @@ export const projectsData = [
     skills: ["nextjs", "Shadcn", "Tailwind CSS", "Clerk Auth", "getStream-io"],
   },
   {
-    id: "pro2",
+    id: "pro3",
     img: aniverse,
     title: "Aniverse",
     description:
@@ -87,7 +95,7 @@ export const projectsData = [
     skills: ["React", "Material UI", "Firebase", "JIKEN API"],
   },
   {
-    id: "pro3",
+    id: "pro4",
     img: arFitnes,
     title: "AR Fitness",
     description:
@@ -96,22 +104,12 @@ export const projectsData = [
     github: "https://github.com/atharvamulgund/AR-Fitness",
     skills: ["React", "Material UI", "Firebase", "Media Pipe API"],
   },
-  {
-    id: "pro4",
-    img: goldGym,
-    title: "Gold Gym",
-    description:
-      " A React.js-based gym website utilizing RapidAPIs Muscle DB for exercise data, featuring detailed tutorials, demos, and filtering/search functionalities.",
-    demo: "https://gold-s-gym-381df.web.app/",
-    github: "https://github.com/atharvamulgund/Gold-Gym",
-    skills: ["React", "Firebase", "Rapid API"],
-  },
 ];
 
 export const socialData = [
   {
     platform: "Twitter",
-    icon:'',
+    icon: "",
     // icon: twttierSystem,
     link: "https://twitter.com/Senpa1C0des",
   },
