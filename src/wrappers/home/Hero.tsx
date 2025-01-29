@@ -26,8 +26,7 @@ const Hero = () => {
           />
         </div>
         <p className="w-[80%] text-gray-500 dark:text-gray-400 sm:w-[60%] text-center sm:text-2xl">
-          Greetings! 👋 I'm Atharva Mulgund, a Front-End Sorcerer 🧙‍♂️ weaving seamless digital experiences across the techscape. 
-          Crafting code spells to optimize journeys in the multi-device realm. 🌐✨ Let's elevate your digital presence together!</p>
+          Greetings! 👋 Hi, I'm Atharva Mulgund, a Software Engineer passionate about building seamless, efficient, and user-centric digital experiences. I thrive on solving complex challenges and optimizing performance to drive innovation.</p>
           
 
         <a href="https://drive.google.com/file/d/1wpPklK4qXchNMauwMJULrqZCDnjYrfGY/view?usp=sharing">
